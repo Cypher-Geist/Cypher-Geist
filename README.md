@@ -2,7 +2,7 @@
 
 > *"You ever been trapped in a sentient cave? That's a dark place that knows stuff."*
 
-ECE Student @ UT Austin | Robotics Enthusiast | Java & Beyond
+ECE Networking/Comms Student @ UT Austin | Robotics Enthusiast | Java & Beyond
 
 ---
 
@@ -10,8 +10,8 @@ ECE Student @ UT Austin | Robotics Enthusiast | Java & Beyond
 | Repo | Class | Description |
 |------|-------|-------------|
 | [LonghornNetwork](https://github.com/Cypher-Geist/LonghornNetwork) | ECE 422C | Full-stack social network — Java backend, React frontend |
-| 422C_Labs | ECE 422C | Data structures, networking, WebSockets |
-| 312_Labs | ECE 312 | Algorithms & complexity |
+| 422C_Labs | ECE 422C | Data structures, networking, WebSockets, & Games |
+| 312_C-Files | ECE 312 | Data Structures & Overwriting & Time complexity |
 | Algos_Labs | ECE 360C | Algorithm design & analysis |
 
 ## 🤖 Robotics
