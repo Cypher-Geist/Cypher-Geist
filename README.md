@@ -10,9 +10,9 @@ ECE Networking/Comms Student @ UT Austin | Robotics Enthusiast | Java & Beyond
 | Repo | Class | Description |
 |------|-------|-------------|
 | [LonghornNetwork](https://github.com/Cypher-Geist/LonghornNetwork) | ECE 422C | Full-stack social network — Java backend, React frontend |
-| 422C_Labs | ECE 422C | Data structures, networking, WebSockets, & Games |
-| 312_C-Files | ECE 312 | Data Structures & Overwriting & Time complexity |
-| Algos_Labs | ECE 360C | Algorithm design & analysis |
+| [422C_Labs](https://github.com/Cypher-Geist/422C_code) | ECE 422C | Data structures, networking, WebSockets, & Games |
+| [312_C-Files](https://github.com/Cypher-Geist/312_code) | ECE 312 | Data Structures & Overwriting & Time complexity |
+| [Algos_Labs](https://github.com/Cypher-Geist/Algos_labs) | ECE 360C | Algorithm design & analysis |
 
 ## 🤖 Robotics
 | Repo | Team | Description |
