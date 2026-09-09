@@ -1,4 +1,4 @@
-# Hey, I'm Christopher 👾
+# Hi, I'm Christopher 👾
 
 > *"You ever been trapped in a sentient cave? That's a dark place that knows stuff."*
 
@@ -13,6 +13,8 @@ ECE Networking/Comms Student @ UT Austin | Robotics Enthusiast | Java & Beyond
 | [422C_Labs](https://github.com/Cypher-Geist/422C_code) | ECE 422C | Data structures, networking, WebSockets, & Games |
 | [312_C-Files](https://github.com/Cypher-Geist/312_code) | ECE 312 | Data Structures & Overwriting & Time complexity |
 | [Algos_Labs](https://github.com/Cypher-Geist/Algos_labs) | ECE 360C | Algorithm design & analysis |
+| [MarioNES-Recreation](https://github.com/Cypher-Geist/MarioNES-Recreation) | ECE 319K | Low‑level recreation of Super Mario Bros using Embedded C |
+
 
 ## 🤖 Robotics
 | Repo | Team | Description |
