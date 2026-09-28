@@ -33,21 +33,26 @@ await nav.execute({ target_positions: ["3.0,1.5,0.0"], time_limit: 30 });
 
 ---
 
-## ⚙️ Hardware & Low-Level Systems
+## 🎓 Coursework
 
-| Repo | Class | Description |
-|------|-------|-------------|
-| [316_VerilogStopwatch](https://github.com/Cypher-Geist/316_VerilogStopwatch) | ECE 316 | 4-mode programmable stopwatch/timer on a Basys 3 FPGA — FSM control, datapath, clock division, time-multiplexed 7-segment display in **Verilog** |
-| [MarioNES-Recreation](https://github.com/Cypher-Geist/MarioNES-Recreation) | ECE 319K | Low-level recreation of Super Mario Bros in **embedded C** — graphics, input, and game loop on a microcontroller |
-| [312_C-Files](https://github.com/Cypher-Geist/312_code) | ECE 312 | **C/C++** data structures, pointers & memory management, and time complexity |
+Highlights from my UT Austin ECE coursework. The full write-ups are in
+**[Cypher-Geist/coursework](https://github.com/Cypher-Geist/coursework)**, and 🔒 source is available on request (course policy).
 
-## 💻 Software Engineering
+**⚙️ Hardware & Low-Level Systems**
 
-| Repo | Class | Description |
-|------|-------|-------------|
-| [LonghornNetwork](https://github.com/Cypher-Geist/LonghornNetwork) | ECE 422C | Full-stack social network — **Java** backend, **React** frontend |
-| [422C_Labs](https://github.com/Cypher-Geist/422C_code) | ECE 422C | Data structures, networking, WebSockets, and games in **Java** |
-| [Algos_Labs](https://github.com/Cypher-Geist/Algos_labs) | ECE 360C | Algorithm design & analysis |
+| Project | Class | Description |
+|---------|-------|-------------|
+| [Programmable Stopwatch](https://github.com/Cypher-Geist/coursework/tree/main/ECE316) | ECE 316 | 4-mode stopwatch/timer on a Basys 3 FPGA: FSM control, BCD datapath, and a multiplexed 7-segment display in **Verilog** |
+| [MarioNES-Recreation](https://github.com/Cypher-Geist/MarioNES-Recreation) | ECE 319K | Low-level recreation of Super Mario Bros in **embedded C**, covering graphics, input, and the game loop on a microcontroller |
+| [C/C++ Systems Projects](https://github.com/Cypher-Geist/coursework/tree/main/ECE312) | ECE 312 | 8 projects in **C/C++**, from custom ADTs and manual memory management to a small language interpreter |
+
+**💻 Software Engineering**
+
+| Project | Class | Description |
+|---------|-------|-------------|
+| [Longhorn Network](https://github.com/Cypher-Geist/coursework/tree/main/ECE422C#lab-6--longhorn-network) | ECE 422C | Full-stack social-network simulator: graph algorithms and concurrency in **Java**, visualized with **React + D3** |
+| [Networked Battleship](https://github.com/Cypher-Geist/coursework/tree/main/ECE422C#lab-5--networked-battleship) | ECE 422C | Real-time multiplayer game: multithreaded socket server, WebSocket JSON protocol, **React** client |
+| [Algorithms](https://github.com/Cypher-Geist/coursework/tree/main/ECE360C) | ECE 360C | Stable matching, spanning trees on a from-scratch heap, and dynamic programming in **Java** |
 
 ## 🤖 Robotics
 
