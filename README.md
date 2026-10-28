@@ -24,6 +24,8 @@ to connect applications with physical robots, virtual avatars, and digital agent
 During my internship with **Coarobo in Japan (Summer 2026)**, I contributed to `@openrois/sdk`, a
 typed TypeScript client for web and Node.js. The SDK communicates with the OpenRoIS gateway using
 **JSON-RPC 2.0 over WebSocket**, with types generated from the project's canonical JSON Schema.
+**[Kachaka Connection Demo Video](https://youtu.be/TJJ_Wb8Sit8)** shows the ability of OpenRoIS
+to communicate and interface with a robot and develop apps to interact with robots with ease.
 
 ```ts
 const client = await RoISClient.connect("wss://gateway.example.com", { token });
