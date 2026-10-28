@@ -2,26 +2,28 @@
 
 > *"You ever been trapped in a sentient cave? That's a dark place that knows stuff."*
 
-**ECE @ UT Austin — Communications, Networks & Systems** · Robotics · Full-stack to gate-level
+**ECE @ UT Austin — Communications, Networks & Systems**
 
-I like working at every layer of the stack: from Verilog state machines and embedded C, up through
-C/C++ data structures, Java backends, and TypeScript SDKs that let software talk to robots.
+I'm interested in how information moves through interconnected systems: wireless links, signal
+processing, networks, and middleware that lets different devices and software work together.
+My projects span radio systems and networked software, from SDR architecture to APIs for
+distributed robotic systems.
 
-- 🤖 Leadership on UT's **IGVC** team and in **UT IEEE RAS**
-- 🛰️ Interned at **Coarobo**, building the TypeScript SDK for **OpenRoIS**
-- 🔌 Currently into ROS 2, networked robotics, and real-time systems
+- 📡 **Senior design:** researching a coherent 4×4 MIMO SDR testbed for next-generation wireless
+- 🌐 **Professional:** developed the OpenRoIS TypeScript SDK during a Summer 2026 internship in Japan
+- 🔌 **Current interests:** wireless communications, digital signal processing, middleware, and real-time systems
 
 ---
 
-## ⭐ Featured: OpenRoIS
+## 🌐 Professional & Open Source: OpenRoIS
 
-**[openrois/openrois](https://github.com/openrois/openrois)** — Open-source middleware for the
-[OMG RoIS Framework 2.0](https://www.omg.org/spec/RoIS/2.0/Beta2). Control physical robots, virtual
-avatars, and digital agents from one paradigm-neutral SDK. *(Apache-2.0 · Alpha)*
+**[openrois/openrois](https://github.com/openrois/openrois)** is an open-source middleware
+implementation of the [OMG RoIS Framework 2.0](https://www.omg.org/spec/RoIS/2.0/Beta2), designed
+to connect applications with physical robots, virtual avatars, and digital agents.
 
-**My work:** the TypeScript client SDK, `@openrois/sdk` — a typed client for web and Node that speaks
-**JSON-RPC 2.0 over WebSocket** to the OpenRoIS gateway, built on TypeScript types generated from the
-project's canonical JSON Schema.
+During my internship with **Coarobo in Japan (Summer 2026)**, I contributed to `@openrois/sdk`, a
+typed TypeScript client for web and Node.js. The SDK communicates with the OpenRoIS gateway using
+**JSON-RPC 2.0 over WebSocket**, with types generated from the project's canonical JSON Schema.
 
 ```ts
 const client = await RoISClient.connect("wss://gateway.example.com", { token });
@@ -29,67 +31,89 @@ const nav = await client.bind("Navigation");
 await nav.execute({ target_positions: ["3.0,1.5,0.0"], time_limit: 30 });
 ```
 
-`TypeScript` · `Node.js` · `JSON-RPC 2.0` · `WebSocket` · `JSON Schema codegen` · `ROS 2`
+`TypeScript` · `Node.js` · `Middleware` · `JSON-RPC 2.0` · `WebSocket` · `JSON Schema` · `ROS 2`
+
+---
+
+## 📡 Senior Design: Coherent 4×4 MIMO Radio Testbed
+
+Our ECE 364D team is researching and designing a **coherent 4×4 multiple-input, multiple-output
+(MIMO) software-defined radio testbed** for wireless research and next-generation networks.
+The proposed architecture pairs an Ettus **USRP N321** with a **USRP N320**, coordinating their
+local oscillators, reference clock, and timing to bring four transmit and receive channels
+together.
+
+My current work is focused on prior art, radio synchronization, host connectivity, and the
+software stack. The project is in its research and architecture-planning phase; hardware
+implementation and measurements are future work.
+
+`Wireless communications` · `MIMO` · `SDR` · `USRP N321/N320` · `UHD` · `5G/6G`
 
 ---
 
 ## 🎓 Coursework
 
-Highlights from my UT Austin ECE coursework. The full write-ups are in
-**[Cypher-Geist/coursework](https://github.com/Cypher-Geist/coursework)**, and 🔒 source is available on request (course policy).
+Selected projects from my UT Austin ECE coursework. More write-ups are in
+**[Cypher-Geist/coursework](https://github.com/Cypher-Geist/coursework)**; some course source is
+available on request under course policy.
 
-**⚙️ Hardware & Low-Level Systems**
-
-| Project | Class | Description |
-|---------|-------|-------------|
-| [Programmable Stopwatch](https://github.com/Cypher-Geist/coursework/tree/main/ECE316) | ECE 316 | 4-mode stopwatch/timer on a Basys 3 FPGA: FSM control, BCD datapath, and a multiplexed 7-segment display in **Verilog** |
-| [MarioNES-Recreation](https://github.com/Cypher-Geist/MarioNES-Recreation) | ECE 319K | Low-level recreation of Super Mario Bros in **embedded C**, covering graphics, input, and the game loop on a microcontroller |
-| [C/C++ Systems Projects](https://github.com/Cypher-Geist/coursework/tree/main/ECE312) | ECE 312 | 8 projects in **C/C++**, from custom ADTs and manual memory management to a small language interpreter |
-
-**💻 Software Engineering**
+### Networks & Software Systems
 
 | Project | Class | Description |
 |---------|-------|-------------|
-| [Longhorn Network](https://github.com/Cypher-Geist/coursework/tree/main/ECE422C#lab-6--longhorn-network) | ECE 422C | Full-stack social-network simulator: graph algorithms and concurrency in **Java**, visualized with **React + D3** |
-| [Networked Battleship](https://github.com/Cypher-Geist/coursework/tree/main/ECE422C#lab-5--networked-battleship) | ECE 422C | Real-time multiplayer game: multithreaded socket server, WebSocket JSON protocol, **React** client |
-| [Algorithms](https://github.com/Cypher-Geist/coursework/tree/main/ECE360C) | ECE 360C | Stable matching, spanning trees on a from-scratch heap, and dynamic programming in **Java** |
+| [Longhorn Network](https://github.com/Cypher-Geist/coursework/tree/main/ECE422C#lab-6--longhorn-network) | ECE 422C | Social-network simulator using graph algorithms, stable matching, referral paths, and concurrent Java threads, visualized with React + D3 |
+| [Networked Battleship](https://github.com/Cypher-Geist/coursework/tree/main/ECE422C#lab-5--networked-battleship) | ECE 422C | Real-time multiplayer game connecting a React client to a multithreaded socket server through a WebSocket JSON protocol |
+| [Algorithms](https://github.com/Cypher-Geist/coursework/tree/main/ECE360C) | ECE 360C | Stable matching, spanning trees using a from-scratch heap, and dynamic programming in Java |
 
-## 🤖 Robotics
+### Hardware & Low-Level Systems
 
-| Repo | Team | Description |
-|------|------|-------------|
-| [robotics-igvc](https://github.com/Cypher-Geist/robotics-igvc) | IGVC | Intelligent Ground Vehicle — PCB design & control systems |
-| [robotics-ftc](https://github.com/Cypher-Geist/robotics-ftc) | FTC | Android + RoadRunner autonomous code across seasons |
+| Project | Class | Description |
+|---------|-------|-------------|
+| [Programmable Stopwatch](https://github.com/Cypher-Geist/coursework/tree/main/ECE316) | ECE 316 | Four-mode stopwatch/timer on a Basys 3 FPGA, with FSM control, a BCD datapath, and a multiplexed seven-segment display in Verilog |
+| [MarioNES Recreation](https://github.com/Cypher-Geist/MarioNES-Recreation) | ECE 319K | Embedded C recreation of Super Mario Bros., covering graphics, input, and a microcontroller game loop |
+| [C/C++ Systems Projects](https://github.com/Cypher-Geist/coursework/tree/main/ECE312) | ECE 312 | Eight projects in C/C++, from custom data structures and manual memory management to a small language interpreter |
+
+---
+
+## 🧪 Digital Signal Processing & Wireless Labs
+
+**Coming soon.** I'm preparing a separate collection of digital signal processing and wireless
+communications labwork, with experiments, code, and notes to be added as they're ready to share.
+
+---
+
+## 🧩 Personal Projects
+
+This section is reserved for independent projects, separate from coursework and professional
+work. I'm still deciding what to build next and will add projects here once they're underway.
+
+---
+
+## 🤝 Teams & Community
+
+I have also contributed to robotics teams and communities, including leadership with UT's
+**IGVC** team and involvement with **UT IEEE RAS**. These experiences complement my broader
+interests in communications, networks, and connected systems.
 
 ---
 
 ## 🛠️ Languages & Tools
 
+**Communications & Wireless**
+
+`Digital signal processing` · `MIMO` · `SDR` · `UHD` · `Wireless systems`
+
+**Middleware & Networked Software**
+
+`TypeScript` · `JavaScript` · `Node.js` · `Java` · `React` · `JSON-RPC` · `WebSocket`
+
 **Systems & Hardware**
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-8A2BE2?style=for-the-badge&logoColor=white)
-![Vivado](https://img.shields.io/badge/AMD_Vivado-ED1C24?style=for-the-badge&logo=amd&logoColor=white)
-![FPGA](https://img.shields.io/badge/FPGA-Basys_3-4B8BBE?style=for-the-badge)
-
-**Software**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-**Robotics & Tooling**
-
-![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![Android](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+`C` · `C++` · `Verilog` · `FPGA` · `Vivado` · `ROS 2` · `Git`
 
 ---
 
-## 📊 Stats
+## 📊 GitHub Stats
 
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=Cypher-Geist&show_icons=true&theme=tokyonight&hide_border=true" alt="Cypher-Geist's GitHub Stats" height="165"/>
